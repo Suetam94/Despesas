@@ -6,7 +6,7 @@ class BancoDeDados
 
     public function __construct()
     {
-        $this->conn = new PDO('mysql:host=localhost;dbname=jb', 'root', 'Hero4503');
+        $this->conn = new PDO('mysql:host=localhost;dbname=jb', 'root', '');
         $this->conn->query('USE JB');
     }
 
