@@ -1,0 +1,46 @@
+body {
+    font-family: 'Source Serif Pro', serif;
+}
+
+a {
+    display: inline-block;
+    text-decoration: none;
+    color: #ff1616;
+}
+
+.social-media {
+    font-size: 2em;
+    margin-right: 0.8em;
+}
+
+.social-media a {
+    margin-left: 0.5em;
+}
+
+header {
+    background: #ffde59;
+    padding: 0.3em;
+    margin-bottom: 3em;
+}
+
+footer {
+    margin-top: 3em;
+    background: #ffde59;
+    padding: 0.3em;
+}
+
+small {
+    margin-left: 0.8em;
+    color: #ff1616;
+    font-size: 1em;
+    font-weight: 600;
+}
+
+#logo-header, #logo-footer {
+    width: auto;
+    height: 2.5em;
+}
+
+#fundo-principal {
+    width: 100%;
+}
